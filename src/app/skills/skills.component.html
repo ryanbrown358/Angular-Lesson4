@@ -1,0 +1,5 @@
+<ul class="heros">
+    <li *ngFor="let skill of skills">
+        <span>{{skill.skill}}</span> {{skill.level | skillLevel}}
+    </li>
+</ul>
